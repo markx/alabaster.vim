@@ -33,7 +33,7 @@ let s:status      = "#79ac39"
 " - Editor settings -
 " -------------------
 exe "hi! Normal"          "guifg=".s:black "guibg=".s:white "gui=".s:none
-exe "hi! Cursor"          "guifg=".s:none  "guibg=".s:none  "gui=".s:none
+exe "hi! Cursor"          "guifg=".s:black "guibg=".s:black "gui=".s:none
 exe "hi! CursorLine"      "guifg=".s:none  "guibg=".s:none  "gui=".s:none
 exe "hi! LineNr"          "guifg=".s:gray  "guibg=".s:none  "gui=".s:none
 exe "hi! CursorLineNR"    "guifg=".s:none  "guibg=".s:none  "gui=".s:none
@@ -65,13 +65,13 @@ exe "hi! IncSearch"   "guifg=".s:none "guibg=".s:orange  "gui=".s:none
 " -----------------
 " - Prompt/Status -
 " -----------------
-exe "hi! StatusLine"   "guifg=".s:none "guibg=".s:magenta "gui=".s:none
-exe "hi! StatusLineNC" "guifg=".s:none "guibg=".s:magenta "gui=".s:none
-exe "hi! WildMenu"     "guifg=".s:none "guibg=".s:none    "gui=".s:none
-exe "hi! Quesion"      "guifg=".s:none "guibg=".s:none    "gui=".s:none
-exe "hi! Title"        "guifg=".s:none "guibg=".s:magenta "gui=".s:none
-exe "hi! ModeMsg"      "guifg=".s:none "guibg=".s:none    "gui=".s:none
-exe "hi! MoreMsg"      "guifg=".s:none "guibg=".s:none    "gui=".s:none
+exe "hi! StatusLine"   "guifg=".s:none  "guibg=".s:magenta "gui=".s:none
+exe "hi! StatusLineNC" "guifg=".s:white "guibg=".s:gray    "gui=".s:none
+exe "hi! WildMenu"     "guifg=".s:none  "guibg=".s:none    "gui=".s:none
+exe "hi! Quesion"      "guifg=".s:none  "guibg=".s:none    "gui=".s:none
+exe "hi! Title"        "guifg=".s:none  "guibg=".s:magenta "gui=".s:none
+exe "hi! ModeMsg"      "guifg=".s:none  "guibg=".s:none    "gui=".s:none
+exe "hi! MoreMsg"      "guifg=".s:none  "guibg=".s:none    "gui=".s:none
 
 " --------------
 " - Visual aid -
