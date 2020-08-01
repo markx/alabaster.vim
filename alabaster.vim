@@ -194,3 +194,11 @@ exe "hi! htmlH3"          "guifg=".s:none  "guibg=".s:none
 exe "hi! htmlH4"          "guifg=".s:none  "guibg=".s:none
 exe "hi! htmlH5"          "guifg=".s:none  "guibg=".s:none
 exe "hi! htmlH6"          "guifg=".s:none  "guibg=".s:none
+
+" -------
+" - JSX -
+" -------
+exe "hi! jsxTag"         "guifg=".s:none "guibg=".s:none
+exe "hi! jsxCloseString" "guifg=".s:none "guibg=".s:none
+exe "hi! jsxOpenPunct"   "guifg=".s:none "guibg=".s:none
+exe "hi! jsxClosePunct"  "guifg=".s:none "guibg=".s:none
