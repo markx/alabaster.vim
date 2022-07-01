@@ -49,7 +49,7 @@ exe "hi! Folded"          "guifg=".s:none  "guibg=".s:none  "gui=".s:none
 " -------------------------
 " - Window/Tab delimiters -
 " -------------------------
-exe "hi! VertSplit"   "guifg=".s:none  "guibg=".s:magenta     "gui=".s:none
+exe "hi! VertSplit"   "guifg=".s:none  "guibg=".s:none        "gui=".s:none
 exe "hi! ColorColumn" "guifg=".s:none  "guibg=".s:magenta     "gui=".s:none
 exe "hi! TabLine"     "guifg=".s:none  "guibg=".s:magenta     "gui=".s:none
 exe "hi! TabLineFill" "guifg=".s:none  "guibg=".s:magenta     "gui=".s:none
