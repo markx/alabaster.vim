@@ -34,7 +34,6 @@ let s:status      = "#79ac39"
 " -------------------
 exe "hi! Normal"          "guifg=".s:black "guibg=".s:white "gui=".s:none
 exe "hi! Cursor"          "guifg=".s:black "guibg=".s:black "gui=".s:none
-exe "hi! CursorLine"      "guifg=".s:none  "guibg=".s:none  "gui=".s:none
 exe "hi! LineNr"          "guifg=".s:gray  "guibg=".s:none  "gui=".s:none
 exe "hi! CursorLineNR"    "guifg=".s:none  "guibg=".s:none  "gui=".s:none
 
